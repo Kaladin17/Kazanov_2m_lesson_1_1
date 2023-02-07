@@ -39,7 +39,8 @@ public class Pet {
 
     public String getInfo() {
         int var10000 = this.age;
-        return "Age: " + var10000 + "\nColor: " + String.valueOf(this.color) + "\nShelter name: " + this.shelter.getName() + "\nShelter address: " + this.shelter.getAddress();
+        return "Age: " + var10000 + "\nColor: " + String.valueOf(this.color) + "\nShelter name: " + this.shelter.getName() +
+                "\nShelter address: " + this.shelter.getAddress();
     }
 
 }
